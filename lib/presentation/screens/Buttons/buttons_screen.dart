@@ -9,7 +9,7 @@ class ButtonsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Botones de Material 3'),
       ),
-      body: Placeholder(),
+      body: const Placeholder(),
     );
   }
 }
