@@ -50,8 +50,6 @@ class ButtonsScreen extends StatelessWidget {
 }
 
 class _MyButton extends StatelessWidget {
-  const _MyButton({super.key});
-
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
