@@ -44,6 +44,10 @@ class _ProgressView extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     CircularProgressIndicator(
+                      backgroundColor: Theme.of(context)
+                          .colorScheme
+                          .primary
+                          .withOpacity(0.2),
                       value: data,
                     ),
                     const SizedBox(width: 20),
